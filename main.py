@@ -74,9 +74,9 @@ class Groovy(commands.AutoShardedBot):
 
         logger.info('Logging in ...')
         if self.debug is True:
-            self.run(self.config['test_bot']['token'])
+            self.run("NjY3OTQwMjE2NTA5NTYyOTEw.XiKBzQ.ssQJ2PLQQga8y8cXboXOgVYPvFA")
         else:
-            self.run(self.config['main_bot']['token'])
+            self.run("NjY3OTQwMjE2NTA5NTYyOTEw.XiKBzQ.ssQJ2PLQQga8y8cXboXOgVYPvFA")
 
     async def on_ready(self):
         logger.info(f'Successfully logged in as {self.user.name}!')
